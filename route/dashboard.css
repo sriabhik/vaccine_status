@@ -1,0 +1,40 @@
+body{
+    background-image: url('../images/i.jpg');
+    background-size: cover;
+    
+}
+#headSection{
+    padding: 1%;
+   
+    margin:2%;
+    color:red;
+    text-align: center;
+}
+#profile{
+    position: relative;
+    left:10%;
+    width: 55%;
+    padding: 4%;
+    background-image: url('../images/nature.jpg');
+    background-size: cover;
+    margin:10px;
+    
+    opacity: 95%;
+    color:black;
+    font-size: 100%;
+}
+#profile img{
+    position: relative;
+    left:20%;
+}
+#b1{
+    float:left;
+    background : red;
+    color:white;
+}
+
+#b2{
+    float:right;
+    background: red;
+    color:white;
+}

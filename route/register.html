@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VACCINE</title>
+    <link rel = "stylesheet" href ="../css/register.css">
+  
+    <style>
+        #Address{
+            width: 35%;
+        }
+
+        #Select_role{
+            width:50%;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id = "headerSection">
+        <h1>ARE YOU VACCINATED?</h1>
+        <hr>
+        <h2>Vaccination Registration Details</h2>
+    </div>
+    <div id = "bodySection">
+        <form method="POST"  action="../api/register.php" enctype ="multipart/form-data">
+            <input type="text" required="required" name="name" placeholder="Name"   >
+             &nbsp;
+             
+            <input type="number" required="required" name = "mobile" placeholder="Addhar Number">
+            <br><br>
+            <!--<input type="password"  required="required"  name="password" placeholder="Password">
+            &nbsp;
+            <input type="password"  required="required" name="cpassword" placeholder="Confirm password">
+            <br><br>-->
+            <input id = "Address"   required="required" type="text" name="address" placeholder="Address">
+            <br><br>
+            <label for ="Upload Image" style="color: white"  >Upload Image</label>
+            <input type="file"  required="required" name ="photo">
+            <br><br>
+            <div id = "Select_role">
+                
+            </div>
+            <label  for ="select role" style="color: white;">VACCINE NAME</label>
+            <select id = "Select_role " name="role">
+                <option value="1">COVID-SHIELD</option>
+                <option value="2">COVAXIN</option>
+            </select>
+            <br><br>
+            <button >Register</button>
+            <div id = "footerSection">
+                <a>Already Register?</a>
+                <a href ="../index.html " target="_blank">Login here</a>
+        </div>
+        </form>
+    </div>
+    
+</body>
+</html>

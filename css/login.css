@@ -1,0 +1,71 @@
+body{
+    background-image: url('../images/yellow_2.jpeg');
+    background-size: cover;
+    text-align: center;
+
+}
+
+#headerSection{
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 2%;
+    margin-top: .1em;
+    color :crimson ;
+}
+#headerSection h1{
+    padding-top:5%;
+    font-size:200%;
+  
+}
+
+ 
+
+#bodySection input{
+    
+        border: .2em solid #4caf50;
+      
+        padding:1%;
+        width:29%;
+        margin:1%;
+      
+        background-color :black;
+        font-size: 100%;
+        color:white;
+}
+
+#bodySection select{
+    padding:1%;
+    margin: 1%;
+    border:none;
+    background-color :black;
+    color:white;
+    border: .2em solid #4caf50;
+   
+    position: relative;
+    width: 30%;
+    height: 10%;
+
+}
+#bodySection button{
+    border: .2em solid green;
+    background-color: black;
+
+    color:white;
+    font-size: 100% ;
+    width:fit-content;
+    padding: 1%;
+    margin: 1%;
+}
+#footerSection{
+    font-size: 100%;
+    color:black;
+    padding: 1%;
+    margin: 1%;
+    background: fit-content;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background :tomato;
+    width:30%;
+    position: relative;
+    left:33%
+
+}
