@@ -1,5 +1,5 @@
 body{
-    background-image: url('../images/black_1.jpg');
+    background-image: url('../images/sri.jpg');
     background-size: cover;
     text-align: center;
 
@@ -13,8 +13,9 @@ body{
     color :crimson ;
 }
 #headerSection h1{
-    font-size:200%;
-  
+    font-size:250%;
+    font-family: cursive;
+    color:darkred;
 }
 
 #bodySection input{
@@ -46,13 +47,12 @@ body{
 
 #bodySection button{
     border: .2em solid green;
-    background-color: black;
 
     color:white;
     font-size: 100% ;
     width:fit-content;
     padding: 1%;
-    margin: 1%;
+    margin: 1
 }
 #footerSection{
     font-size: 100%;
