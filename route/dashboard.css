@@ -1,6 +1,7 @@
 body{
-    background-image: url('../images/i.jpg');
+    background-color:lightseagreen;
     background-size: cover;
+    background-position: center;
     
 }
 #headSection{
@@ -10,31 +11,37 @@ body{
     color:red;
     text-align: center;
 }
+#profile b{
+    color:red;
+
+}
 #profile{
-    position: relative;
-    left:10%;
-    width: 55%;
-    padding: 4%;
-    background-image: url('../images/nature.jpg');
-    background-size: cover;
-    margin:10px;
+    float:left;
     
-    opacity: 95%;
+    width: 55%;
+    
+    padding: 4%;
+    background-color: gainsboro;
+    background-size: cover;
+    margin:3%;
     color:black;
-    font-size: 100%;
+    font-size: 130%;
+    vertical-align: top;
 }
 #profile img{
-    position: relative;
-    left:20%;
+    float:right;
 }
+
 #b1{
     float:left;
     background : red;
     color:white;
+    cursor: pointer;
 }
 
 #b2{
     float:right;
+    cursor: pointer;
     background: red;
     color:white;
 }

@@ -6,10 +6,10 @@
     }
     $userdata = $_SESSION['userdata'];
     if($_SESSION['userdata']['role'] == 1){
-        $status = '<b style = "color:lightgreen" >VACCINATED - ( COVISHIELD)</b>';
+        $status = '<b style = "color:green" >VACCINATED - ( COVISHIELD)</b>';
     }
     else if($_SESSION['userdata']['role'] == 2){
-    $status = '<b style = "color: lightgreen" > VACCINATED - ( COVAXIN)</b>';
+    $status = '<b style = "color: green" > VACCINATED - ( COVAXIN)</b>';
     }
 ?>
 <!DOCTYPE html>
@@ -35,15 +35,17 @@
         <hr>
             <div id = "profile">
                 <img src = "../uploads/<?php echo $userdata['photo']?>" width= "25%" height="25%">
-                <br><br>
+                <br><br><br>
                 <b>Name    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </b><?php echo $userdata['name']?>
-                <br><br>
-                <b>Addhar  &nbsp;&nbsp;&nbsp;:</b><?php echo $userdata['mobile']?>
-                <br><br>
+                <br><br><br>
+                <b>Adhaar  &nbsp;&nbsp;&nbsp;:</b><?php echo $userdata['mobile']?>
+                <br><br><br>
                 <b>Address &nbsp;:</b><?php echo $userdata['address']?>
-                <br><br>
+                <br><br><br>
                 <b>Status  &nbsp;&nbsp;&nbsp;&nbsp;:</b><?php echo  $status?>
             </div>
+            
      </div>
+     
 </body>
 </html>

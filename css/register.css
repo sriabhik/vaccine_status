@@ -1,6 +1,7 @@
 body{
     background-image: url('../images/sri.jpg');
     background-size: cover;
+    background-position: center;
     text-align: center;
 
 }
@@ -27,8 +28,9 @@ body{
         margin:1%;
       
         background-color :black;
-        font-size: 100%;
         color:white;
+        font-size: 100%;
+        
 }
 
 
@@ -47,8 +49,9 @@ body{
 
 #bodySection button{
     border: .2em solid green;
-
+    background-color:mediumaquamarine;
     color:white;
+    cursor: pointer;
     font-size: 100% ;
     width:fit-content;
     padding: 1%;

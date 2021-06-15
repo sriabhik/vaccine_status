@@ -20,9 +20,8 @@
 </head>
 <body>
     <div id = "headerSection">
-        <h1>ARE YOU VACCINATED?</h1>
+        <h1>Vaccination Registration Details</h1>
         <hr>
-        <h2>Vaccination Registration Details</h2>
     </div>
     <div id = "bodySection">
         <form method="POST"  action="../api/register.php" enctype ="multipart/form-data">
@@ -31,29 +30,28 @@
              
             <input type="number" required="required" name = "mobile" placeholder="Addhar Number">
             <br><br>
-            <!--<input type="password"  required="required"  name="password" placeholder="Password">
-            &nbsp;
-            <input type="password"  required="required" name="cpassword" placeholder="Confirm password">
-            <br><br>-->
             <input id = "Address"   required="required" type="text" name="address" placeholder="Address">
             <br><br>
-            <label for ="Upload Image" style="color: white"  >Upload Image</label>
+            <label for ="Upload Image" style="color: darkred"  >Upload Image</label>
             <input type="file"  required="required" name ="photo">
+           <!--- <label for ="Upload file" style="color: darkred"  >Upload Vaccination Certificate</label>
+            <input type="file"  required="required" name ="file">-->
             <br><br>
             <div id = "Select_role">
                 
             </div>
-            <label  for ="select role" style="color: white;">VACCINE NAME</label>
+            <label  for ="select role" style="color:darkred;">VACCINE NAME</label>
             <select id = "Select_role " name="role">
                 <option value="1">COVID-SHIELD</option>
                 <option value="2">COVAXIN</option>
             </select>
             <br><br>
-            <button >Register</button>
+            <button >VERIFICATION REQUEST</button>
             <div id = "footerSection">
                 <a>Already Register?</a>
-                <a href ="../index.html " target="_blank">Login here</a>
+                <a href ="../index.html " >Login here</a>
         </div>
+        <b> </b><br>&copy;2021 ABHISHEK KUMAR SRIVASTAVA</b> 
         </form>
     </div>
     

@@ -1,5 +1,5 @@
 body{
-    background-image: url('../images/yellow_2.jpeg');
+    background-color:darkgrey;
     background-size: cover;
     text-align: center;
 
@@ -13,9 +13,11 @@ body{
     color :crimson ;
 }
 #headerSection h1{
-    padding-top:5%;
-    font-size:200%;
-  
+    padding-top:3%;
+    font-size:250%;
+    font-style:bold;
+    color:black;
+    font-family: cursive;
 }
 
  
@@ -47,14 +49,18 @@ body{
 
 }
 #bodySection button{
-    border: .2em solid green;
-    background-color: black;
-
+    border: .1em solid black;
+    background-color:  #4caf50;
+        cursor: pointer;
     color:white;
     font-size: 100% ;
     width:fit-content;
     padding: 1%;
     margin: 1%;
+}
+#bodySection h1{
+    color:red;
+    font-family:cursive;
 }
 #footerSection{
     font-size: 100%;
@@ -63,7 +69,7 @@ body{
     margin: 1%;
     background: fit-content;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background :tomato;
+    background:floralwhite;
     width:30%;
     position: relative;
     left:33%

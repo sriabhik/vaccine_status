@@ -1,0 +1,23 @@
+
+#bodySectio h1{
+    text-align: center;
+    font-size: 250%;
+    margin: 1%;
+}
+#inn{
+    padding: 2%;
+    color:crimson;
+    margin:2%;
+    font-size: 90%;
+}
+#bodySectio li{
+    text-align: center;
+    list-style-type : none;
+    margin: 1%;
+    font-size:200%;
+    
+}
+#footerSection{
+    text-align: center;
+    
+}
