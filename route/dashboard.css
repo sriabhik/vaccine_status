@@ -17,10 +17,9 @@ body{
 }
 #profile{
     float:left;
+    width: 90%;
     
-    width: 55%;
-    
-    padding: 4%;
+    padding: 2%;
     background-color: gainsboro;
     background-size: cover;
     margin:3%;
@@ -30,6 +29,8 @@ body{
 }
 #profile img{
     float:right;
+    position: relative;
+    top:20%;
 }
 
 #b1{

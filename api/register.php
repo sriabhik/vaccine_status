@@ -15,7 +15,7 @@
     if($insert){
         echo '
             <script>
-            alert("Registration Successfull");
+            alert("Registration Under Verification");
             window.location = "../route/register.html";
             </script>
         ';

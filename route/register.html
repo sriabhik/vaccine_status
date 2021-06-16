@@ -7,15 +7,7 @@
     <title>VACCINE</title>
     <link rel = "stylesheet" href ="../css/register.css">
   
-    <style>
-        #Address{
-            width: 35%;
-        }
-
-        #Select_role{
-            width:50%;
-        }
-    </style>
+   
     
 </head>
 <body>
@@ -28,17 +20,17 @@
             <input type="text" required="required" name="name" placeholder="Name"   >
              &nbsp;
              
-            <input type="number" required="required" name = "mobile" placeholder="Addhar Number">
+            <input type="number" required="required" name = "mobile" placeholder="Adhaar Number">
             <br><br>
-            <input id = "Address"   required="required" type="text" name="address" placeholder="Address">
-            <br><br>
-            <label for ="Upload Image" style="color: darkred"  >Upload Image</label>
-            <input type="file"  required="required" name ="photo">
-           <!--- <label for ="Upload file" style="color: darkred"  >Upload Vaccination Certificate</label>
-            <input type="file"  required="required" name ="file">-->
+            <div id= "ib">
+                <input s  required="required" type="text" name="address" placeholder="Address">
+                <br><br>
+                <label for ="Upload Image" style="color: darkred"  >Upload Image</label>
+                <input type="file"  required="required" name ="photo">
+            </div>
+            
             <br><br>
             <div id = "Select_role">
-                
             </div>
             <label  for ="select role" style="color:darkred;">VACCINE NAME</label>
             <select id = "Select_role " name="role">
@@ -51,7 +43,7 @@
                 <a>Already Register?</a>
                 <a href ="../index.html " >Login here</a>
         </div>
-        <b> </b><br>&copy;2021 ABHISHEK KUMAR SRIVASTAVA</b> 
+        <br><b>&copy;2021 ABHISHEK KUMAR SRIVASTAVA</b> 
         </form>
     </div>
     

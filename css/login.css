@@ -17,7 +17,7 @@ body{
     font-size:250%;
     font-style:bold;
     color:black;
-    font-family: cursive;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
  
@@ -27,7 +27,7 @@ body{
         border: .2em solid #4caf50;
       
         padding:1%;
-        width:29%;
+        width:32%;
         margin:1%;
       
         background-color :black;
